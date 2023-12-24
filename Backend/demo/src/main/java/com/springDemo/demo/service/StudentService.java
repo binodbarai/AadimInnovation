@@ -15,6 +15,6 @@ public interface StudentService {
 
     StudentResponse updateStudent(StudentUpdateRequest request);
 
-    
+
 
 }
