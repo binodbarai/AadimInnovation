@@ -46,7 +46,6 @@ public class StudentServiceImpl implements StudentService {
         List<Student> students = studentRepository.findAll();
         for(Student student : students){
             studentResponses.add(new StudentResponse(student));
-
         }
         return studentResponses;
     }
@@ -56,4 +55,6 @@ public class StudentServiceImpl implements StudentService {
         Student student = studentRepository.getReferenceById(id);
         return new StudentResponse(student);
     }
+
+
 }

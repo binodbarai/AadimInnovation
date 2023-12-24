@@ -13,4 +13,8 @@ public interface StudentService {
 
     StudentResponse getById(Integer id);
 
+    StudentResponse updateStudent(StudentUpdateRequest request);
+
+    
+
 }

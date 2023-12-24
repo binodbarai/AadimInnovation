@@ -28,4 +28,6 @@ public class StudentController {
     public StudentResponse getById(@PathVariable Integer id){
         return studentService.getById(id);
     }
+
+
 }

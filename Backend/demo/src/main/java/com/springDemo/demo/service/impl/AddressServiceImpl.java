@@ -62,6 +62,4 @@ public class AddressServiceImpl implements AddressService {
         addressRepository.deleteById(id);
         return "Address deleted with id: "+id;
     }
-
-
 }
